@@ -3,10 +3,10 @@ from pyteomics import mzxml
 import csv
 
 # Path to your mzXML file
-mzxml_path = r'C:\Users\skl448\Desktop\phd\data\zooms\phd_data\phd_data_sjaelland\second_run\20240416-0910_TTF_011479_ONJ_TR_JonasHJ_2024_04_16_CPH2101005550_partial.mzXML'
+mzxml_path = r'C:\Users\[username]\Desktop\[path to .mzXML file]'
 
 # Directory to store output TXT files
-output_directory = r'C:\Users\skl448\Desktop\phd\data\zooms\phd_data\phd_data_sjaelland\second_run\.txt'
+output_directory = r'C:\Users\[username]\Desktop\[path to output directory]'
 
 # Ensure the output directory exists
 if not os.path.exists(output_directory):
